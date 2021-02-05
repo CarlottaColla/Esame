@@ -1,0 +1,13 @@
+C:\Users\carlotta.colla\Documents\Progetti\Esame2\TaskUtente\TaskUtente\bin\Debug\netcoreapp3.1\TaskUtente.exe
+C:\Users\carlotta.colla\Documents\Progetti\Esame2\TaskUtente\TaskUtente\bin\Debug\netcoreapp3.1\TaskUtente.deps.json
+C:\Users\carlotta.colla\Documents\Progetti\Esame2\TaskUtente\TaskUtente\bin\Debug\netcoreapp3.1\TaskUtente.runtimeconfig.json
+C:\Users\carlotta.colla\Documents\Progetti\Esame2\TaskUtente\TaskUtente\bin\Debug\netcoreapp3.1\TaskUtente.runtimeconfig.dev.json
+C:\Users\carlotta.colla\Documents\Progetti\Esame2\TaskUtente\TaskUtente\bin\Debug\netcoreapp3.1\TaskUtente.dll
+C:\Users\carlotta.colla\Documents\Progetti\Esame2\TaskUtente\TaskUtente\bin\Debug\netcoreapp3.1\TaskUtente.pdb
+C:\Users\carlotta.colla\Documents\Progetti\Esame2\TaskUtente\TaskUtente\obj\Debug\netcoreapp3.1\TaskUtente.csprojAssemblyReference.cache
+C:\Users\carlotta.colla\Documents\Progetti\Esame2\TaskUtente\TaskUtente\obj\Debug\netcoreapp3.1\TaskUtente.AssemblyInfoInputs.cache
+C:\Users\carlotta.colla\Documents\Progetti\Esame2\TaskUtente\TaskUtente\obj\Debug\netcoreapp3.1\TaskUtente.AssemblyInfo.cs
+C:\Users\carlotta.colla\Documents\Progetti\Esame2\TaskUtente\TaskUtente\obj\Debug\netcoreapp3.1\TaskUtente.csproj.CoreCompileInputs.cache
+C:\Users\carlotta.colla\Documents\Progetti\Esame2\TaskUtente\TaskUtente\obj\Debug\netcoreapp3.1\TaskUtente.dll
+C:\Users\carlotta.colla\Documents\Progetti\Esame2\TaskUtente\TaskUtente\obj\Debug\netcoreapp3.1\TaskUtente.pdb
+C:\Users\carlotta.colla\Documents\Progetti\Esame2\TaskUtente\TaskUtente\obj\Debug\netcoreapp3.1\TaskUtente.genruntimeconfig.cache
