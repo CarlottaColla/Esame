@@ -9,7 +9,7 @@ namespace TaskUtente
     class GestioneTask
     {
         //path del file
-        public static string path { get; } = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "Task.csv");
+        public static string path { get; } = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "Progetti/Esame2/Task.csv");
         
         //Funzione per stampare correttamente a console
         public static void StampaTask (Task[] tastkDaStampare)
@@ -17,7 +17,7 @@ namespace TaskUtente
             Console.WriteLine("Descrizione - Data di scadenza - Importanza");
             for (int i = 0; i < tastkDaStampare.Length; i++)
             {
-                Console.WriteLine(tastkDaStampare[i].Descrizione + " - " + tastkDaStampare[i].DataScadenza +
+                Console.WriteLine(tastkDaStampare[i].Descrizione + " - " + tastkDaStampare[i].DataScadenza.Date +
                     " - " + tastkDaStampare[i].Importanza);
             }
         }
@@ -51,7 +51,7 @@ namespace TaskUtente
                     taskSalvati[i - 1] = new Task()
                     {
                         Descrizione = riga[0],
-                        DataScadenza = Convert.ToDateTime(riga[1]),
+                        DataScadenza = Convert.ToDateTime(riga[1]).Date,
                         Importanza = riga[2]
                     };
 
@@ -102,7 +102,7 @@ namespace TaskUtente
             {
                 Console.WriteLine("Inserisci la data di scadenza:");
                 dataDaControllare = Convert.ToDateTime(Console.ReadLine());
-                if (dataDaControllare < dataAttuale)
+                if (dataDaControllare.Date < dataAttuale.Date)
                     Console.WriteLine("La data inserita non è corretta, " +
                         "inserisci una data posteriore o uguale a quella attuale.");
             } while (dataDaControllare < dataAttuale);
